@@ -1,0 +1,223 @@
+body {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.5rem;
+}
+
+.bg-primary {
+  background-image: url("../img/portfolio/light_00063.jpg");
+  background-size: cover;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active{
+  background-color: rgba(255,165,0,0.5);
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{
+  color: #fff;
+  background: rgba(255,165,0,0.5);
+}
+
+.bg-secondary {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.portfolio {
+  background-color: rgba(0,0,0);
+}
+
+.masthead .masthead-avatar {
+  width: 21rem;
+  opacity: 0.8;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+  color: #fff;
+  background: rgba(255,165,0);
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: blue;
+}
+
+#mainNav .navbar-brand {
+  color: rgba(255,165,0);
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.masthead .masthead-subheading {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+span{
+  color: rgba(255,165,0);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 25px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#mainNav {
+  font-family: 'Big Shoulders Display', cursive;
+  letter-spacing: 3px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(255,165,0,0.9);
+}
+
+.fa-times:before {
+  content: "\f00d";
+  color: rgba(255,165,0);
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0 solid rgba(0,0,0,.2);
+  border-radius: .75rem;
+  outline: 0;
+  background-image: url("../img/portfolio/light_00063.jpg");
+  background-size: cover;
+}
+
+.text-secondary {
+  color: rgba(255,165,0);
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: .25rem;
+  background-color: rgba(255,165,0);
+  border-radius: 1rem;
+  border-color: rgba(255,165,0);
+}
+
+.fa-star:before {
+  content: "\f005";
+  color: rgba(255,165,0);
+}
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: rgba(255,165,0);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: 'Big Shoulders Display', cursive;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  color: rgba(255,165,0);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgba(255,165,0);
+  border-color: rgba(255,165,0);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 255, 0.7);
+  border-color: rgba(0, 0, 255, 0);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0.7);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(0, 0, 255, 0.7);
+  border-color: rgba(0, 0, 255, 0);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0);
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #6bebd1;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,165,0,0.5);
+}
+
+.floating-label-form-group-with-focus label {
+  color: rgba(255,165,0);
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  background-image: url("../img/portfolio/light_00063.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.copyright {
+  background-color: rgb(0,0,0);
+}
+
+.scroll-to-top a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(255,165,0,0.5);
+  line-height: 3.1rem;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.leadm {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(255,165,0);
+  font-family: "M PLUS Rounded 1c";
+}
+
+.lead {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c";
+}
+
+p.mb-5 {
+  color: white;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.portfolio-modal .portfolio-modal-title {
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+.page-section {
+  background-color: black;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: rgba(255,165,0);
+}
